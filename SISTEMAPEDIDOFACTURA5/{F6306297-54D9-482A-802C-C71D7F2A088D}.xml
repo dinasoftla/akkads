@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<configuration date="2017/03/10" author="e.World Technology Ltd.">
+<project id="{F6306297-54D9-482A-802C-C71D7F2A088D}" file="C:\reportmaker\reporte articulos.prp" name="SISTEMAPEDIDOFACTURA5" product="PHPReportMaker" version="8.0" datetime="2017/03/10 18:16:13" languagefolder="phprptlang" userlevel="0,&quot;Default&quot;,0">
+<table id="AuditTrail" name="AuditTrail" caption="Audit Trail" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="SIS_FACTURA" name="SIS_FACTURA" caption="SIS FACTURA" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="SIS_FACTURA_DETALLE" name="SIS_FACTURA_DETALLE" caption="SIS FACTURA DETALLE" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Consulta_Articulos" name="Consulta Articulos" caption="Consulta Articulos" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="VIW_SALIDA_INVENTARIO" name="VIW_SALIDA_INVENTARIO" caption="VIW SALIDA INVENTARIO" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="VIW_HISTORIAL_ARTICULOS" name="VIW_HISTORIAL_ARTICULOS" caption="VIW HISTORIAL ARTICULOS" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+</project></configuration>

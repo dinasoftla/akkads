@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<configuration date="2017/03/27" author="e.World Technology Ltd.">
+<project id="{583510BF-00E0-41A1-A4E7-AF2AC6016C3C}" file="C:\Users\Hardy\Documents\PHPMaker\Projects\SISTEMAPEDIDOFACTURA6.pmp" name="SISTEMAPEDIDOFACTURA5" product="PHPMaker" version="12.0" datetime="2017/03/27 10:54:51" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;" relatedid="{F6306297-54D9-482A-802C-C71D7F2A088D}">
+<table id="SIS_CLIENTE" name="SIS_CLIENTE" caption="CLIENTE" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_LINEA" name="SIS_LINEA" caption="LINEA" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_ARTICULO" name="SIS_ARTICULO" caption="ARTICULO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_ARTICULO_INVENTARIO" name="SIS_ARTICULO_INVENTARIO" caption="ARTICULO INVENTARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_KARDEX" name="SIS_KARDEX" caption="KARDEX" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_USUARIOS" name="SIS_USUARIOS" caption="USUARIOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="sysdiagrams" name="sysdiagrams" caption="sysdiagrams" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_ABONOS" name="SIS_ABONOS" caption="SIS ABONOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_UBICACIONES" name="SIS_UBICACIONES" caption="SIS UBICACIONES" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="Consulta_Articulos" name="Consulta Articulos" caption="CONSULTA ARTICULOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="AuditTrail" name="AuditTrail" caption="Audit Trail" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_COMPANIA" name="SIS_COMPANIA" caption="COMPANIA" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_FACTURA" name="SIS_FACTURA" caption="FACTURA" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_FACTURA_DETALLE" name="SIS_FACTURA_DETALLE" caption="FACTURA DETALLE" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="FACTURAS" name="FACTURAS" caption="FACTURAS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_PEDIDO" name="SIS_PEDIDO" caption="PEDIDO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_PEDIDO_DETALLE" name="SIS_PEDIDO_DETALLE" caption="DETALLE PEDIDO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="VIW_DETALLEPEDIDO" name="VIW_DETALLEPEDIDO" caption="DETALLEPEDIDO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_PEDIDO_ACTUAL" name="SIS_PEDIDO_ACTUAL" caption="PEDIDO ACTUAL" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_LECTURAARTICULOlist_php" name="SIS_LECTURAARTICULOlist.php" caption="LECTURA ARTICULOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_CREARPEDIDOACTUAL_php" name="SIS_CREARPEDIDOACTUAL.php" caption="CREAR PEDIDO ACTUAL" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_CUENTAS_BANCARIAS" name="SIS_CUENTAS_BANCARIAS" caption="CUENTAS BANCARIAS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_ARTICULOBARCODElist_php" name="SIS_ARTICULOBARCODElist.php" caption="CONSULTA CODIGO DE BARRAS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_GENERADORCB_php" name="SIS_GENERADORCB.php" caption="GENERAR CODIGOS DE BARRA DE ARTICULOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="VIW_CENTRODEIMPRESION" name="VIW_CENTRODEIMPRESION" caption="CREAR ETIQUETAS DE ARTICULO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_SELECCION_USUARIO" name="SIS_SELECCION_USUARIO" caption="SELECCION USUARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_CREARIMPRESIONACTUAL_php" name="SIS_CREARIMPRESIONACTUAL.php" caption="CREAR IMPRESION ACTUAL" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_ETIQUETAS" name="SIS_ETIQUETAS" caption="ETIQUETAS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_MANTENIMIENTOS_php" name="MEN_MANTENIMIENTOS.php" caption="MANTENIMIENTOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_INVENTARIO_php" name="MEN_INVENTARIO.php" caption="INVENTARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_PROCESOS_php" name="MEN_PROCESOS.php" caption="PROCESOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_REPORTES_php" name="MEN_REPORTES.php" caption="REPORTES" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_IMPRIMIR" name="MEN_IMPRIMIR" caption="IMPRIMIR" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_GENERADORUBICACIONESCB_php" name="SIS_GENERADORUBICACIONESCB.php" caption="GENERADOR DE UBICACIONES" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_ASIGNAR_UBICACION_php" name="SIS_ASIGNAR_UBICACION.php" caption="ASIGNAR UBICACION" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_LEERARTICULO_php" name="SIS_LEERARTICULO.php" caption="LEER ARTICULO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_LEERUBICACION_php" name="SIS_LEERUBICACION.php" caption="LEER UBICACION" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_DETALLEARTICULO_LEER_php" name="SIS_DETALLEARTICULO_LEER.php" caption="LEER ARTICULO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_VALIDARUBICACION_php" name="SIS_VALIDARUBICACION.php" caption="LEER UBICACION" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="PENDIENTES_txt" name="PENDIENTES.txt" caption="Pendientes" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_INVENTARIO_ENTRADA_php" name="MEN_INVENTARIO_ENTRADA.php" caption="ENTRADA INVENTARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_INVENTARIO_SALIDA" name="MEN_INVENTARIO_SALIDA" caption="SALIDA DE INVENTARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="VIW_SALIDA_INVENTARIO" name="VIW_SALIDA_INVENTARIO" caption="SALIDA INVENTARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_JUSTIFICACIONES" name="SIS_JUSTIFICACIONES" caption="JUSTIFICACIONES" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_MOVIMIENTO_INV_php" name="SIS_MOVIMIENTO_INV.php" caption="MOVIMIENTO INVENTARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="VIW_ENTRADA_INVENTARIO" name="VIW_ENTRADA_INVENTARIO" caption="ENTRADA INVENTARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_PAGOS" name="SIS_PAGOS" caption="PAGOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_INGRESOS" name="SIS_INGRESOS" caption="INGRESOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_PROVEEDORES" name="SIS_PROVEEDORES" caption="PROVEEDORES" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_GENERAR_FACTURA_php" name="SIS_GENERAR_FACTURA.php" caption="GENERAR FACTURA" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_REPORTE_INGRESOSYPAGOS_php" name="SIS_REPORTE_INGRESOSYPAGOS.php" caption="REPORTE DE INGRESOS Y PAGOS DIARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_GENERAR_REPORTE_TOP_php" name="SIS_GENERAR_REPORTE_TOP.php" caption="REPORTE DE ARTICULOS MAS VENDIDOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="VIW_HISTORIAL_ARTICULOS" name="VIW_HISTORIAL_ARTICULOS" caption="HISTORIAL ARTICULOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_PROCESOS_FINANCIEROS_php" name="MEN_PROCESOS_FINANCIEROS.php" caption="PROCESOS FINANCIEROS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MENUPRINCIPAL_php" name="MENUPRINCIPAL.php" caption="MENU PRINCIPAL" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_CREAR_ETIQUETAS_php" name="MEN_CREAR_ETIQUETAS.php" caption="CREAR ETIQUETAS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_TAREAS" name="SIS_TAREAS" caption="SIS TAREAS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="VIW_IMPRIMIR_UBICACIONES" name="VIW IMPRIMIR UBICACIONES" caption="VIW IMPRIMIR UBICACIONES" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+</project></configuration>

@@ -1,0 +1,22 @@
+- Actualizacion de Sp entrada inventario actualice stock bien OK
+- Facturacion OK
+- Apartados
+- Salida de inventario
+	- inv masivo
+- Creacion de kardex
+-validar solo numeros en moneda
+- Estadisticas de articulos
+- Ingresos y Gastos
+- Cierres
+- Correos
+- Multi inventario
+- Facturas de credito y de contado (Venta)
+-Facturas de credito
+caen a cuentas por cobrar
+-Factura de contado
+caen en ingresos
+- Facturas de credito y de contado (compra)
+-Facturas de credito
+caen a cuentas por pagar
+-Factura de contado
+caen en gastos

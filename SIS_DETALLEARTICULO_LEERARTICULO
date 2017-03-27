@@ -1,0 +1,28 @@
+<?php
+	   			$query = "EXEC SP_CONSULTAR_DETALLEARTICULO_INVENTARIO " . $_GET["txtarticulo"];
+	   			$dsdetallearticulo = ew_Execute($query);
+				foreach ($dsdetallearticulo as $rs => $value) {
+					$codarticulo = $value["codarticulo"];
+					$ubicacion = $value["ubicacion"];
+					$descripcion = $value["descripcion"];
+					$canarticulo = $value["canarticulo"];
+				}
+				$LINKURL = "SIS_LEERUBICACION.php?txtarticulo=" . $_GET["txtarticulo"];
+				 $parrafo = "<pre><table style='width:100%'>
+						<table style='width:100%'>
+ 			            <tr>
+ 			                <th>Cod Articulo</th>
+ 			                <th>Ubicacion</th>
+ 			                <th>Descripcion</th> 
+ 			                <th>Cantidad</th>
+ 			              </tr>
+ 			              <tr>
+ 			                <td>". $codarticulo ."</td>
+  			                <td>". $ubicacion ."</td>			                
+ 			                <td>". $descripcion ."</td>
+ 			                <td>". $canarticulo ."</td>
+ 			              </tr>
+ 			            </table>
+ 			            <P></pre>"; 
+ 			      echo $parrafo;
+?>

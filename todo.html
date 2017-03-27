@@ -1,0 +1,369 @@
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css"/>
+    <style>
+        #container{
+            max-width: 480px;
+            width: 100%;
+            margin: 20px auto;
+        }
+        #demo_box{
+            width: 480px;
+			z-index: -1;
+        }
+        .fa{
+            font-size: 40px;
+            line-height: 70px;
+        }
+        .fa-bars{
+            color:#000000;
+        }
+        pre{
+            font-family: Consolas,Liberation Mono,Courier,monospace;
+            font-size: 13px;
+        }
+        @media screen and (orientation: portrait){
+            pre{
+                overflow-x: scroll;
+            }
+        }
+		
+    </style>
+
+<html>
+   <head>
+      <title>circle menu demo</title>
+   </head>
+   <body>
+      <table width="600" border="0">
+         <tr>
+            <td bgcolor="#CAF5FB">
+             <div  id="demo_box" style="background-color:#2DEEEE;border-radius:50%;padding:15px;width:70px;height:70px;text-align: center;margin:70px auto;">
+			<span class="pop_ctrl"><i class="fa fa-bars"></i></span>
+            <ul id="demo_ul" style="z-index:10;font-size:10px;">
+                <li class="demo_li"><a href="http://www.yahoo.com"><div><i><img src="phpimages/chart-timeline.png"></i></div>
+					<div>
+						<b><font color="black">ARTICULOS AASSASAS</font></b>
+					</div></a>
+				</li>
+				<li class="demo_li"><a href="http://www.yahoo.com"><div><i><img src="phpimages/articulo.png"></i></div>
+					<div>
+						<font color="black">ARTICULO</font>
+					</div></a>
+				</li>
+				<li class="demo_li"><a href="http://www.yahoo.com"><div><i><img src="phpimages/articulo.png"></i></div>
+					<div>
+						<font color="black">ARTICULO</font>
+					</div></a>
+				</li>
+				<li class="demo_li"><a href="http://www.yahoo.com"><div><i><img src="phpimages/articulo.png"></i></div>
+					<div>
+						<font color="black">ARTICULO</font>
+					</div></a>
+				</li>
+			</ul>
+			
+        </div>
+           </td>
+            <td bgcolor="#A9FCD9">
+               <div id="menu_icon2" class="" style="border-radius: 50%;position: relative; width: 100px; height: 100px; background-color:#0FEC83;margin:70px auto;">
+                  <div class="wcircle-icon">
+                     <div style="padding: 15px;width: 50px;height: 50px;text-align: center;font-size:10px;">
+                        <img src="phpimages/imprimir.png" alt="HTML tutorial">				
+                     </div>
+                  </div>
+                  <div class="wcircle-menu" style="display:none;">
+                     <div class="wcircle-menu-item" style="background-color:#7AFC91;border-radius:50%;padding:15px;width:70px;height:70px;text-align: center;font-size:10px;">
+                        <a href="default.asp">
+                        <img src="phpimages/articulo.png" alt="HTML tutorial">				  </a>				
+                     </div>
+                     <div class="wcircle-menu-item" style="background-color:#7AFC91;border-radius:50%;padding:15px;width:70px;height:70px;font-size:10px;">
+                        <a href="default.asp">
+                        <img src="phpimages/ubicacion.png" alt="HTML tutorial">				  </a>				
+                     </div>
+                  </div>
+               </div>
+           </td>
+         </tr>
+         <tr>
+            <td bgcolor="#F5FCC5">
+               <div id="menu_icon3" style="border-radius: 50%;position: relative; width: 100px; height: 100px; background-color:#FFFF3E;margin:70px auto;">
+                  <div class="wcircle-icon">
+                     <div style="padding: 15px;width: 50px;height: 50px;text-align: center;font-size:10px;">
+                        <img src="phpimages/admininventario.png" alt="HTML tutorial">				
+                     </div>
+                  </div>
+                  <div class="wcircle-menu" style="display:none;">
+                     <div class="wcircle-menu-item" style="background-color:f1fd55;border-radius:50%;padding:15px;width:70px;height:70px;text-align: center;font-size:10px;">
+                        <a href="default.asp">
+                        <img src="phpimages/kardex.png" alt="HTML tutorial">				  </a>				
+                     </div>
+                     <div class="wcircle-menu-item" style="background-color:#f1fd55;border-radius:50%;padding:15px;width:70px;height:70px;font-size:10px;">
+                        <a href="default.asp">
+                        <img src="phpimages/salidainv.png" alt="HTML tutorial">				  </a>				
+                     </div>
+                     <div class="wcircle-menu-item" style="background-color:#f1fd55;border-radius:50%;padding:15px;width:70px;height:70px;font-size:10px;">
+                        <a href="default.asp">
+                        <img src="phpimages/entradainv.png" alt="HTML tutorial">				  </a>				
+                     </div>
+                     <div class="wcircle-menu-item" style="background-color:#f1fd55;border-radius:50%;padding:15px;width:70px;height:70px;font-size:10px;">
+                        <a href="default.asp">
+                        <img src="phpimages/entra_ubicar.png" alt="HTML tutorial"></a>
+                     </div>
+                  </div>
+               </div>
+           </td>
+            <td bgcolor="#F0CBFA">
+               <div id="menu_icon4" class="" style="border-radius: 50%;position: relative; width: 100px; height: 100px; background-color:#DA169F;margin:70px auto;">
+               <div class="wcircle-icon">
+                  <div style="padding: 15px;width: 50px;height: 50px;text-align: center;font-size:10px;">
+                     <img src="phpimages/proventa.png" alt="HTML tutorial">				
+                  </div>
+               </div>
+               <div class="wcircle-menu" style="display:none;">
+                  <div class="wcircle-menu-item" style="background-color:#F150D5;border-radius:50%;padding:15px;width:70px;height:70px;text-align: center;font-size:10px;">
+                     <a href="default.asp">
+                     <img src="phpimages/genfactura.png" alt="HTML tutorial">				  </a>				
+                  </div>
+                  <div class="wcircle-menu-item" style="background-color:#F150D5;border-radius:50%;padding:15px;width:70px;height:70px;font-size:10px;">
+                     <a href="default.asp">
+                     <img src="phpimages/genpedido.png" alt="HTML tutorial">				  </a>				
+                  </div>
+                  <div class="wcircle-menu-item" style="background-color:#F150D5;border-radius:50%;padding:15px;width:70px;height:70px;font-size:10px;">
+                     <a href="default.asp">
+                     <img src="phpimages/consultar.png" alt="HTML tutorial">				  </a>				
+                  </div>
+               </div>
+			 </div>
+           </td>
+         </tr>
+         <tr>
+            <td bgcolor="#8EF775">
+               <div id="menu_icon5" class="" style="border-radius: 50%;position: relative; width: 100px; height: 100px; background-color:#1EB009;margin:70px auto;">
+               <div class="wcircle-icon ">
+                  <div style="padding: 15px;width: 50px;height: 50px;text-align: center;font-size:10px;">
+                     <img src="phpimages/profinancieros.png" alt="HTML tutorial">				
+                  </div>
+               </div>
+               <div class="wcircle-menu " style="display:none;">
+                  <div class="wcircle-menu-item" style="background-color:64de3f;border-radius:50%;padding:15px;width:70px;height:70px;text-align: center;font-size:10px;">
+                     <a href="default.asp">
+                     <img src="phpimages/abonos.png" alt="HTML tutorial">				  </a>				
+                  </div>
+                  <div class="wcircle-menu-item" style="background-color:#64de3f;border-radius:50%;padding:15px;width:70px;height:70px;font-size:10px;">
+                     <a href="default.asp">
+                     <img src="phpimages/ingresos.png" alt="HTML tutorial">				  </a>				
+                  </div>
+                  <div class="wcircle-menu-item" style="background-color:#64de3f;border-radius:50%;padding:15px;width:70px;height:70px;font-size:10px;">
+                     <a href="default.asp">
+                     <img src="phpimages/pagos.png" alt="HTML tutorial">				  </a>				
+                  </div>
+               </div>
+			 </div>
+           </td>
+            <td bgcolor="#8EBFF4">
+               <div id="menu_icon6" class="" style="border-radius: 50%;position: relative; width: 100px; height: 100px; background-color:#166DAD;margin:70px auto;">
+               <div class="wcircle-icon">
+                  <div style="padding: 15px;width: 50px;height: 50px;text-align: center;font-size:10px;">
+                     <img src="phpimages/reportes.png" alt="HTML tutorial">				
+                  </div>
+               </div>
+               <div class="wcircle-menu" style="display:none;">
+                  <div class="wcircle-menu-item" style="background-color:#4285f4;border-radius:50%;padding:15px;width:70px;height:70px;text-align: center;font-size:10px;">
+                     <a href="default.asp">
+                     <img src="phpimages/top10.png" alt="HTML tutorial">				  </a>				
+                  </div>
+                  <div class="wcircle-menu-item" style="background-color:#4285f4;border-radius:50%;padding:15px;width:70px;height:70px;font-size:10px;">
+                     <a href="default.asp">
+                     <img src="phpimages/ventas.png" alt="HTML tutorial">				  </a>				
+                  </div>
+                  <div class="wcircle-menu-item" style="background-color:4285f4;border-radius:50%;padding:15px;width:70px;height:70px;font-size:10px;">
+                     <a href="default.asp">
+                     <img src="phpimages/ventasqueso.png" alt="HTML tutorial">				  </a>				
+                  </div>
+               </div>
+			 </div>
+           </td>
+         </tr>
+      </table>
+
+
+             <script src="menu_pop/jquery.popmenu.js"></script>
+	     	  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+      <script type="text/javascript" src="WCircleMenu/jQuery.WCircleMenu.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function(){
+         	$('#menu_icon').WCircleMenu({
+         		width: '50px',
+         		height: '50px',
+         		angle_start : 0,//-Math.PI/2,px auto;
+         		delay: 50,
+         		distance: 135,
+         		angle_interval: Math.PI/4,
+         		easingFuncShow:"easeOutBack",
+         		easingFuncHide:"easeInBack",
+         		step:35,
+         		itemRotation:360,
+         	});
+         
+         	$('.icons').off('click').on('click',function(){
+         		console.log($(this).text());
+         	});
+         
+         	$('#openWCM').off('click').on('click',function(){
+         		$('#menu_icon').WCircleMenu('open');
+         	});
+         
+         	$('#closeWCM').off('click').on('click',function(){
+         		$('#menu_icon').WCircleMenu('close');
+         	});
+         
+         });
+         
+         $(document).ready(function(){
+         	$('#menu_icon2').WCircleMenu({
+         		width: '50px',
+         		height: '50px',
+         		angle_start : 0,//-Math.PI/2,px auto;
+         		delay: 50,
+         		distance: 135,
+         		angle_interval: Math.PI/4,
+         		easingFuncShow:"easeOutBack",
+         		easingFuncHide:"easeInBack",
+         		step:35,
+         		itemRotation:360,
+         	});
+         
+         	$('.icons').off('click').on('click',function(){
+         		console.log($(this).text());
+         	});
+         
+         	$('#openWCM').off('click').on('click',function(){
+         		$('#menu_icon2').WCircleMenu('open');
+         	});
+         
+         	$('#closeWCM').off('click').on('click',function(){
+         		$('#menu_icon2').WCircleMenu('close');
+         	});
+         
+         });
+         			$(document).ready(function(){
+         	$('#menu_icon3').WCircleMenu({
+         		width: '50px',
+         		height: '50px',
+         		angle_start : 0,//-Math.PI/2,px auto;
+         		delay: 50,
+         		distance: 135,
+         		angle_interval: Math.PI/4,
+         		easingFuncShow:"easeOutBack",
+         		easingFuncHide:"easeInBack",
+         		step:35,
+         		itemRotation:360,
+         	});
+         
+         	$('.icons').off('click').on('click',function(){
+         		console.log($(this).text());
+         	});
+         
+         	$('#openWCM').off('click').on('click',function(){
+         		$('#menu_icon3').WCircleMenu('open');
+         	});
+         
+         	$('#closeWCM').off('click').on('click',function(){
+         		$('#menu_icon3').WCircleMenu('close');
+         	});
+         
+         });
+         $(document).ready(function(){
+         	$('#menu_icon4').WCircleMenu({
+         		width: '50px',
+         		height: '50px',
+         		angle_start : 0,//-Math.PI/2,px auto;
+         		delay: 50,
+         		distance: 135,
+         		angle_interval: Math.PI/4,
+         		easingFuncShow:"easeOutBack",
+         		easingFuncHide:"easeInBack",
+         		step:35,
+         		itemRotation:360,
+         	});
+         
+         	$('.icons').off('click').on('click',function(){
+         		console.log($(this).text());
+         	});
+         
+         	$('#openWCM').off('click').on('click',function(){
+         		$('#menu_icon4').WCircleMenu('open');
+         	});
+         
+         	$('#closeWCM').off('click').on('click',function(){
+         		$('#menu_icon4').WCircleMenu('close');
+         	});
+         
+         });
+         $(document).ready(function(){
+         	$('#menu_icon5').WCircleMenu({
+         		width: '50px',
+         		height: '50px',
+         		angle_start : 0,//-Math.PI/2,px auto;
+         		delay: 50,
+         		distance: 135,
+         		angle_interval: Math.PI/4,
+         		easingFuncShow:"easeOutBack",
+         		easingFuncHide:"easeInBack",
+         		step:35,
+         		itemRotation:360,
+         	});
+         
+         	$('.icons').off('click').on('click',function(){
+         		console.log($(this).text());
+         	});
+         
+         	$('#openWCM').off('click').on('click',function(){
+         		$('#menu_icon5').WCircleMenu('open');
+         	});
+         
+         	$('#closeWCM').off('click').on('click',function(){
+         		$('#menu_icon5').WCircleMenu('close');
+         	});
+         
+         });
+         $(document).ready(function(){
+         	$('#menu_icon6').WCircleMenu({
+         		width: '50px',
+         		height: '50px',
+         		angle_start : 0,//-Math.PI/2,px auto;
+         		delay: 50,
+         		distance: 135,
+         		angle_interval: Math.PI/4,
+         		easingFuncShow:"easeOutBack",
+         		easingFuncHide:"easeInBack",
+         		step:35,
+         		itemRotation:360,
+         	});
+         
+         	$('.icons').off('click').on('click',function(){
+         		console.log($(this).text());
+         	});
+         
+         	$('#openWCM').off('click').on('click',function(){
+         		$('#menu_icon6').WCircleMenu('open');
+         	});
+         
+         	$('#closeWCM').off('click').on('click',function(){
+         		$('#menu_icon6').WCircleMenu('close');
+         	});
+         
+         });
+         
+	$(function(){
+            $('#demo_box').popmenu({'background':'#16F8F2',
+			'focusColor':'#00E1E1',
+			'borderRadius':'10px', 
+			'top': '70', 
+			'left': '-40',
+			'color':'#1265fe'});
+        })
+              
+      </script>
+   </body>
+</html>

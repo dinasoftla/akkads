@@ -1,0 +1,8 @@
+    <?php
+   	$codarticulo = $_SESSION['BF-JRCO12'];
+   	echo $codarticulo;
+
+	//$query = "EXEC SP_GENERAR_PEDIDO_ACTUAL " . $codcliente. ",". CurrentUserName() . $_GET["descuento"]. ",". $_GET["transporte"];	  
+	//ew_Execute($query);
+
+	?>

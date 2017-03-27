@@ -1,0 +1,11 @@
+    <?php
+   	$codcliente = $_GET["codclientecombo"];
+	$query = "EXEC SP_GENERAR_PEDIDO_ACTUAL " . $codcliente. ",". CurrentUserName();	  
+	ew_Execute($query);
+	$query3 = "EXEC SP_CONSULTARMAXIMOPEDIDO";
+	$maxpedido = ew_ExecuteScalar($query3);
+	header("Location: http://www.google.com");
+
+	/*header("Location: SIS_CREARPEDIDOACTUAL.php?numpedido=". $maxpedido);
+	die();
+	?>

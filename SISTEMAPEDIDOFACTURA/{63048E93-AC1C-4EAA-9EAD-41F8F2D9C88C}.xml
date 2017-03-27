@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<configuration date="2017/02/07" author="e.World Technology Ltd.">
+<project id="{63048E93-AC1C-4EAA-9EAD-41F8F2D9C88C}" file="C:\Users\Hardy\Documents\PHPMaker\Projects\SISTEMAPEDIDOFACTURA2.pmp" name="SISTEMAPEDIDOFACTURA" product="PHPMaker" version="12.0" datetime="2017/02/07 19:54:03" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;">
+<table id="SIS_CLIENTE" name="SIS_CLIENTE" caption="CLIENTE" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_LINEA" name="SIS_LINEA" caption="LINEA" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_ARTICULO" name="SIS_ARTICULO" caption="ARTICULO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_ARTICULO_INVENTARIO" name="SIS_ARTICULO_INVENTARIO" caption="ARTICULO INVENTARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_KARDEX" name="SIS_KARDEX" caption="KARDEX" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_USUARIOS" name="SIS_USUARIOS" caption="USUARIOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="sysdiagrams" name="sysdiagrams" caption="sysdiagrams" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_ABONOS" name="SIS_ABONOS" caption="SIS ABONOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_UBICACIONES" name="SIS_UBICACIONES" caption="SIS UBICACIONES" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="Consulta_Articulos" name="Consulta Articulos" caption="CONSULTA ARTICULOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="AuditTrail" name="AuditTrail" caption="Audit Trail" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_COMPANIA" name="SIS_COMPANIA" caption="SIS COMPANIA" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_FACTURA" name="SIS_FACTURA" caption="FACTURA" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_FACTURA_DETALLE" name="SIS_FACTURA_DETALLE" caption="FACTURA DETALLE" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="FACTURAS" name="FACTURAS" caption="FACTURAS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_PEDIDO" name="SIS_PEDIDO" caption="PEDIDO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_PEDIDO_DETALLE" name="SIS_PEDIDO_DETALLE" caption="DETALLE PEDIDO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="VIW_DETALLEPEDIDO" name="VIW_DETALLEPEDIDO" caption="VIW DETALLEPEDIDO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_PEDIDO_ACTUAL" name="SIS_PEDIDO_ACTUAL" caption="SIS PEDIDO ACTUAL" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_LECTURAARTICULOlist_php" name="SIS_LECTURAARTICULOlist.php" caption="LECTURA ARTICULOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_CREARPEDIDOACTUAL_php" name="SIS_CREARPEDIDOACTUAL.php" caption="CREAR PEDIDO ACTUAL" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_CUENTAS_BANCARIAS" name="SIS_CUENTAS_BANCARIAS" caption="SIS CUENTAS BANCARIAS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_ARTICULOBARCODElist_php" name="SIS_ARTICULOBARCODElist.php" caption="CONSULTA CODIGO DE BARRAS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_GENERADORCB_php" name="SIS_GENERADORCB.php" caption="GENERADOR DE CODIGOS DE BARRA" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="VIW_CENTRODEIMPRESION" name="VIW_CENTRODEIMPRESION" caption="CENTRO DE IMPRESION" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_SELECCION_USUARIO" name="SIS_SELECCION_USUARIO" caption="SIS SELECCION USUARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_CREARIMPRESIONACTUAL_php" name="SIS_CREARIMPRESIONACTUAL.php" caption="CREAR IMPRESION ACTUAL" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_MANTENIMIENTOS_php" name="MEN_MANTENIMIENTOS.php" caption="MANTENIMIENTOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_INVENTARIO_php" name="MEN_INVENTARIO.php" caption="INVENTARIO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_ELEMENTOS_php" name="MEN_ELEMENTOS.php" caption="CONCEPTOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_PROCESOS_php" name="MEN_PROCESOS.php" caption="PROCESOS" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_REPORTES_php" name="MEN_REPORTES.php" caption="REPORTES" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="MEN_IMPRIMIR" name="MEN_IMPRIMIR" caption="IMPRIMIR" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_GENERADORUBICACIONESCB_php" name="SIS_GENERADORUBICACIONESCB.php" caption="GENERADOR DE UBICACIONES" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_ASIGNAR_UBICACION_php" name="SIS_ASIGNAR_UBICACION.php" caption="ASIGNAR UBICACION" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_LEERARTICULO_php" name="SIS_LEERARTICULO.php" caption="LEER ARTICULO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_LEERUBICACION_php" name="SIS_LEERUBICACION.php" caption="LEER UBICACION" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_DETALLEARTICULO_LEER_php" name="SIS_DETALLEARTICULO_LEER.php" caption="LEER ARTICULO" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="SIS_VALIDARUBICACION_php" name="SIS_VALIDARUBICACION.php" caption="LEER UBICACION" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+</project></configuration>
